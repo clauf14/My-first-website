@@ -38,7 +38,26 @@
            <p>
            Lorem ipsum dolor sit amet, consectetur adipiscing clit. In turpis lorem, feugiat id magna vitac, mattis pretium orci. Quisque rhoncus quis tellus sit amet posuere. Aliquam convalis sed felis sit amet viverra.
           </p>
-       <button class="btn btn-primary">Inscrie-te acum</button>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Inscrie-te acum
+</button>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Inscriere</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Inregistrare pentru modul!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Inchide</button>
+        <button type="button" class="btn btn-primary">Salveaza</button>
+      </div>
+    </div>
+  </div>
+</div>
        <button class="btn btn-outline-secondary">Cere detalii</button>
       </div>
       
