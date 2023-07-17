@@ -1,0 +1,89 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html{
+    overflow-x:hidden;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    background:linear-gradient(#ffcdb2, #ffb4a2 70%);
+    justify-content:  center;
+    padding-left: 10px !important;
+    align-items: center;
+    margin:0px;
+    margin-bottom: 0px !important;
+}
+
+li{  
+    margin: 0 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+.lilogo{
+    margin-left: auto;
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none !important;
+    color:black !important;
+}
+
+a:hover{
+    background-color: #ffcdb2;
+}
+
+.p1,.p2,.p3{
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    border: 5px solid #ffb4a2;
+ }
+ 
+
+.text-poze{
+    max-width: 100%;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+ }
+
+ .footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background:linear-gradient(#ffcdb2, #ffb4a2 50%);
+    text-align: center;
+ }
+
+ .mec-logo{
+    max-width: 100px;
+ }
+ 
+ @media screen and (max-width:900px){
+    .poza1{
+        max-width: 100%;
+    }
+    .poza2, .poza3{
+        max-width: 50%;
+    }
+    
+}
+
+.main-carousel .carousel-item > div{
+    background-size: cover;
+    background-position: center;
+}
+
+.main-carousel .carousel-item > div:before{
+    content:"";
+    display: block;
+    padding-top: 50%;
+
+}
+
