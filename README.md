@@ -51,7 +51,7 @@ This website is created by me from scratch using HTML, CSS and PHP, with the hel
 
 **Client:** HTML, CSS, PHP, Bootstrap
 
-**Server:** Local by Flywheel
+**Local Server:** Local by Flywheel
 
 
 ## 🙏 Feedback
